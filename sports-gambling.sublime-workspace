@@ -1,0 +1,927 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"zoo",
+				"zoom-thumb"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"partner",
+				"partner-program"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"temp",
+				"template_directory"
+			],
+			[
+				"des",
+				"descargas"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"Aller",
+				"AllerRegular"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"AB",
+				"absolute"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"A",
+				"AllerBold"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"show",
+				"show-awesomeness"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"sho",
+				"showAwesomeness"
+			],
+			[
+				"mous",
+				"mouseenter"
+			],
+			[
+				"oran",
+				"orange"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"ora",
+				"orange"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"Q",
+				"Queretaro"
+			],
+			[
+				"logist",
+				"logistica-y-transportistas"
+			],
+			[
+				"cons",
+				"construccion"
+			],
+			[
+				"th",
+				"the_field"
+			],
+			[
+				"text",
+				"texto_1"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ligh",
+				"lightBlue"
+			],
+			[
+				"lig",
+				"lightBlue"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"campus",
+				"campus-info"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"txt",
+				"textGray2"
+			],
+			[
+				"all",
+				"AllerBold"
+			],
+			[
+				"li",
+				"lightOrangeBtn"
+			],
+			[
+				"lightBlu",
+				"lightBlueBtn"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"repea",
+				"repeat-x"
+			],
+			[
+				"news",
+				"news-blog"
+			],
+			[
+				"arl",
+				"AllerBold"
+			],
+			[
+				"btn",
+				"orangeBtnBorder"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"login",
+				"login-active"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"video",
+				"video-banner"
+			],
+			[
+				"dar",
+				"darkerBlue"
+			],
+			[
+				"light",
+				"lightBlue"
+			],
+			[
+				"banner",
+				"banner-text"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"sd",
+				"semiBold"
+			],
+			[
+				"center",
+				"center-td"
+			],
+			[
+				"conten",
+				"content-img"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"wra",
+				"wrapper-table"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bu",
+				"button-orange"
+			],
+			[
+				"content",
+				"content-area"
+			],
+			[
+				"Os",
+				"OSBoldItalic"
+			],
+			[
+				"os",
+				"OpenSansExtraboldItalic"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"OSExtra",
+				"OpenSansExtraboldItalic"
+			],
+			[
+				"ico",
+				"icon-youtube"
+			],
+			[
+				"icon",
+				"icon-twitter"
+			],
+			[
+				"wel",
+				"welcome-message-container"
+			],
+			[
+				"OS",
+				"OSBoldItalic"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"top",
+				"top-ad"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"OSBold",
+				"OSBoldItalic"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"gra",
+				"gray"
+			],
+			[
+				"rg",
+				"rgba	rgba"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"OSE",
+				"OSExtraItalic"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"padding"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/index.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/sidebar/business-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/header.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/partner-program/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/business-services/business-internet/dedicated-internet_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/business-services/data-services/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/business-services/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/partner-program/become-a-partner_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/partner-program/submit-a-lead_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/partner-program/partner-login_2.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/sidebar/partner-program-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/sidebar/contact-node.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/header.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/clientes.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/includes/header.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/includes/sidebar/business-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/business-services/data-services/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/business-services/business-internet/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/business-services/business-internet/volume-internet_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/business-services/business-internet/burstable-internet_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/business-services/business-internet/dedicated-internet_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RBS/index_2.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/page.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/contacto.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/css/layout.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/footer.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/descargas.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/soluciones-adicionales.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/js/smoothscroll.js",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/sidebar/business-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/business-services/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/header.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/sidebar/about-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/about-us/index_2.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/sidebar/services-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/sidebar/contact-node.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/includes/sidebar/support-navigation-node.php",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Clients/Primus/Website/EN/business/email/coms/S1401071/S1401071-b.html",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Clients/Primus/Website/EN/business/email/coms/S1401071/S1401071.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/css/gradients.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/single.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/loop.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/loop-single.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/comments.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/functions.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/post.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/comments.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/nuestras-alianzas.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/blog.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/blog.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/index.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/css/layout.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/alianzas.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/loop-page.php",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/nuestros-clientes.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/css/layout_old.css",
+		"/Users/RobArpi/Documents/Respaldo MackbookPro/Documents/Proyectos/OrangeStudio/IT/fase2-html/originales/css/style.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/microsoft-dynamics.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/header.php",
+		"/Users/RobArpi/AdhocWorks/Clients/Rogers/RogersBusinessSolutions/customer-support/index_2.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/footer.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/js/ux.js",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/css/theme.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-morelia.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-puebla.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-qro.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-sta-anita.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-main.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/footer-la-calma.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/main.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/interna.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/parts/news-blog.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/single.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/wordpress/wp-content/themes/cmn-theme/page.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/css/theme.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/sobre-it-soluciones.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/sub-navigation.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/includes/soluciones-industria.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/reference-template.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/html/moda.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/html/acordeon-tabs.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/style.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/css/style.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/js/jquery.js",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/js/bootstrap.min.js",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/index.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/css/customize.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/cnm.sublime-project",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/css/gradients.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/customize.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/fonts/aller-font.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/js/ux.js",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/index.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/da-slider.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/inner.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/index.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/cemcorp.sublime-workspace",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/cemcorp.sublime-project",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/mobile-email_new.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/html/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/sidebar.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/it-soluciones",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/ink.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/mobile-email-testing.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/email.html",
+		"/Users/RobArpi/AdhocWorks/Web/BlackIronData/January14/Full_Website_Copy/login/index.php",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/medrenlogic-landing-page.sublime-project",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/ux.js",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/project-page.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/js/submenu.js",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/jquery-1.10.2.min.js",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/activation-1.0.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/avalon-framework-4.2.0.jar"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5",
+			"4",
+			"3",
+			"2",
+			"-1",
+			"figure",
+			"nodisplay",
+			"zoom-thumb",
+			"s\">",
+			"-networks",
+			"article",
+			"referring",
+			"company",
+			"site-office",
+			"required>",
+			"<span class=\"red\">*</span>",
+			"State/Province",
+			"State/Province:",
+			"City",
+			"input-large",
+			"spacer10",
+			"span",
+			"MB20",
+			"h6",
+			"h5",
+			"10",
+			"input-xlarge",
+			"form",
+			"type=\"text\"",
+			"h4",
+			"RBSinfo@rci.rogers.com",
+			"_11",
+			"_complementos",
+			"_10",
+			"descargas_casos_exito",
+			"_9",
+			"info_interes",
+			"_8",
+			"descargas_si_logistica_transporte",
+			"_7",
+			"descargas_si_automotrices",
+			"_6",
+			"_retail",
+			"_5",
+			"descargas_si_constrccion",
+			"descargas_si_construccion",
+			"_4",
+			"_alimentos_bebidas",
+			"_3",
+			"_moda",
+			"moda",
+			"_2",
+			"descargas_microsoft_dynamics_nav",
+			"_1",
+			"10",
+			"<img class=\"pdf-icon\" src=\"<?php bloginfo('template_directory'); ?>/img/pdf-icon.png\" alt=\"pdf-icon\" width=\"29\" height=\"19\">",
+			"get_",
+			"get",
+			"_1",
+			"listadoContainer",
+			"left: 23px;",
+			"position: absolute;",
+			".clientes",
+			"img",
+			"class='active'",
+			"carrier",
+			"business-internet/",
+			"carrier-services",
+			"<?php bloginfo('template_directory'); ?>",
+			"href=\"#\"",
+			"contacto",
+			".form",
+			"</option>",
+			"descargas",
+			"/uploads/",
+			"src=\"/img/pdf-icon.png\"",
+			"echo \" class='in'\";",
+			"class=\"title\"",
+			"#",
+			"\n                    			<br/>",
+			"10px",
+			"textarea",
+			"comment-form-comment",
+			"comments",
+			"comment-author",
+			"commentlist",
+			"h3",
+			"id=\"comments",
+			"id=comments",
+			"src=\"/img/",
+			"alianzas",
+			"clientes",
+			"/img/",
+			"nuestros",
+			"patternBg",
+			"src=\"images/",
+			"></",
+			"<span>",
+			"<p>",
+			"img src=\"http://primus.ca/business/email/coms/20130528/images/",
+			"<?php bloginfo('siteurl'); ?>",
+			"If",
+			"MB5",
+			";",
+			":",
+			"pound",
+			"span",
+			"$campuslogo",
+			"Colegio,",
+			"#levels",
+			"href=\"#\"",
+			"query_posts( 'posts_per_page=3' );",
+			"$campuslogo",
+			"$campusid",
+			"h px",
+			"MT35",
+			"#boletin",
+			".phone",
+			"_9",
+			"_8",
+			"_7",
+			"_6",
+			"_4",
+			"_2",
+			"PT",
+			"<div class=\"span11 offset1\">",
+			"{  ?>",
+			") )"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}
