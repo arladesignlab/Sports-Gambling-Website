@@ -4,6 +4,146 @@
 		"selected_items":
 		[
 			[
+				"dar",
+				"darkGray"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"ralewaye",
+				"ralewayheavy"
+			],
+			[
+				"ral",
+				"ralewaylight"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"ex",
+				"expert-thumb"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"pi",
+				"picks-tab"
+			],
+			[
+				"p",
+				"picks-tabs"
+			],
+			[
+				"tab",
+				"tab-text"
+			],
+			[
+				"pick",
+				"picks-tabs-nav-desktop"
+			],
+			[
+				"expert",
+				"expert-statistics"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"dark",
+				"darkGray"
+			],
+			[
+				"op",
+				"openBold"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ra",
+				"ralewayregular"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"lig",
+				"lightGray"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"rale",
+				"ralewaybold"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"li",
+				"lightGray"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"top",
+				"top-search"
+			],
+			[
 				"zoo",
 				"zoom-thumb"
 			],
@@ -20,28 +160,8 @@
 				"header	Tag"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
 				"partner",
 				"partner-program"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"width",
@@ -72,10 +192,6 @@
 				"min-width"
 			],
 			[
-				"ma",
-				"margin"
-			],
-			[
 				"Aller",
 				"AllerRegular"
 			],
@@ -88,14 +204,6 @@
 				"absolute"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
 				"lin",
 				"line-height"
 			],
@@ -106,10 +214,6 @@
 			[
 				"A",
 				"AllerBold"
-			],
-			[
-				"fi",
-				"fixed"
 			],
 			[
 				"show",
@@ -144,10 +248,6 @@
 				"orange"
 			],
 			[
-				"a",
-				"auto"
-			],
-			[
 				"Q",
 				"Queretaro"
 			],
@@ -176,36 +276,16 @@
 				"lightBlue"
 			],
 			[
-				"lig",
-				"lightBlue"
-			],
-			[
-				"bor",
-				"border-radius"
-			],
-			[
 				"no",
 				"none"
-			],
-			[
-				"b",
-				"background"
 			],
 			[
 				"pad",
 				"padding"
 			],
 			[
-				"borde",
-				"border-box"
-			],
-			[
 				"campus",
 				"campus-info"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"txt",
@@ -214,10 +294,6 @@
 			[
 				"all",
 				"AllerBold"
-			],
-			[
-				"li",
-				"lightOrangeBtn"
 			],
 			[
 				"lightBlu",
@@ -292,16 +368,8 @@
 				"bold"
 			],
 			[
-				"bl",
-				"block"
-			],
-			[
 				"video",
 				"video-banner"
-			],
-			[
-				"dar",
-				"darkerBlue"
 			],
 			[
 				"light",
@@ -368,10 +436,6 @@
 				"OpenSansExtraboldItalic"
 			],
 			[
-				"gr",
-				"gray"
-			],
-			[
 				"OSExtra",
 				"OpenSansExtraboldItalic"
 			],
@@ -394,10 +458,6 @@
 			[
 				"padd",
 				"padding-top"
-			],
-			[
-				"top",
-				"top-ad"
 			],
 			[
 				"margin",
@@ -444,10 +504,6 @@
 				"OSExtraItalic"
 			],
 			[
-				"h",
-				"height"
-			],
-			[
 				"in",
 				"inline-block"
 			],
@@ -458,34 +514,6 @@
 			[
 				"fu",
 				"function"
-			],
-			[
-				"back",
-				"background-position"
-			],
-			[
-				"img",
-				"images"
-			],
-			[
-				"so",
-				"solid"
-			],
-			[
-				"m",
-				"margin"
-			],
-			[
-				"z",
-				"z-index"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"p",
-				"padding"
 			]
 		]
 	},
@@ -495,7 +523,47 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 36209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme.styl",
+			"settings":
+			{
+				"buffer_size": 9779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fonts/typography.css",
+			"settings":
+			{
+				"buffer_size": 8326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/ux.js",
+			"settings":
+			{
+				"buffer_size": 1113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/gradients.css",
+			"settings":
+			{
+				"buffer_size": 8332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/flexslider.css",
+			"settings":
+			{
+				"buffer_size": 4949,
 				"line_ending": "Unix"
 			}
 		}
@@ -540,6 +608,8 @@
 	},
 	"file_history":
 	[
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/theme.styl",
+		"/Users/RobArpi/AdhocWorks/Dropbox/Picks/Desarrollo/css/theme.styl",
 		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/index.html",
 		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/sidebar/business-navigation-node.php",
 		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/header.php",
@@ -665,9 +735,7 @@
 		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/ux.js",
 		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/project-page.html",
 		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/js/submenu.js",
-		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/jquery-1.10.2.min.js",
-		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/activation-1.0.2.jar",
-		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/avalon-framework-4.2.0.jar"
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/jquery-1.10.2.min.js"
 	],
 	"find":
 	{
@@ -685,6 +753,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5",
+			"3",
+			"button",
+			"expertos",
+			"button",
+			"62px",
+			"td",
+			"100%",
+			"0",
+			"fonts/",
+			"../img/",
+			"-1",
+			"0.2em",
+			"h3",
+			"xs",
+			"hidden-xs",
+			"xs",
+			"5px",
+			"/",
+			"div",
+			"figure",
+			"div",
 			"5",
 			"4",
 			"3",
@@ -790,29 +880,7 @@
 			"MB5",
 			";",
 			":",
-			"pound",
-			"span",
-			"$campuslogo",
-			"Colegio,",
-			"#levels",
-			"href=\"#\"",
-			"query_posts( 'posts_per_page=3' );",
-			"$campuslogo",
-			"$campusid",
-			"h px",
-			"MT35",
-			"#boletin",
-			".phone",
-			"_9",
-			"_8",
-			"_7",
-			"_6",
-			"_4",
-			"_2",
-			"PT",
-			"<div class=\"span11 offset1\">",
-			"{  ?>",
-			") )"
+			"pound"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -838,23 +906,166 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 36209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								35031,
+								35031
+							],
+							[
+								35036,
+								35036
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10266.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/theme.styl",
+					"settings":
+					{
+						"buffer_size": 9779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3501,
+								3501
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3786.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fonts/typography.css",
+					"settings":
+					{
+						"buffer_size": 8326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5180,
+								5180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/ux.js",
+					"settings":
+					{
+						"buffer_size": 1113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/gradients.css",
+					"settings":
+					{
+						"buffer_size": 8332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6867,
+								6867
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/flexslider.css",
+					"settings":
+					{
+						"buffer_size": 4949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1843,
+								1843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

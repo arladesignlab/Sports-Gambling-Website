@@ -7,10 +7,11 @@
     <meta name="description" content="">
 	<title>PickLounge – La Sala de los Expertos</title>
 
-	<link rel="shortcut icon" href="img/icono.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
 	<!-- Hojas de Estilo -->
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" href="css/flexslider.css">
 
     <!-- Hacks -->
     <!-- HTML5 shim para compatibilidad con IE -->
@@ -36,24 +37,1189 @@
     <![endif]-->
 
     <div class="container" id="main-container">
-    	<div class="row">
-    		<div class="col-md-3 color1">logo</div>
-    		<div class="col-md-9">
-                <div class="row">
-                    <div class="col-xs-9 color2">picks nav</div>
-                    <div class="col-xs-3 color1">search</div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-9 color1">main nav</div>
-                    <div class="col-xs-3 color2">login</div>
+    	<header id="header" class="row MB20">
+    		<figure id="logo" class="col-sm-3">
+                <img class="img-responsive" src="img/pick-lounge-logo.png" alt="Pick Lounge - La Sala de los Expertos">
+            </figure>
+    		<div class="col-sm-9">
+                <div class="row PR">
+                    <nav id="picks-menu" class="col-sm-9">
+                        <h4 class="hidden-picks">
+                            <a href="#" class="picks-menu-devices-btn">Menú</a>
+                        </h4>
+                        <ul>
+                            <li><a href="#">Expertos</a></li>
+                            <li class="hidden-sm">/</li>
+                            <li><a href="#">Picks</a></li>
+                            <li class="hidden-sm">/</li>
+                            <li><a href="#">Quinielas y Juegos</a></li>
+                            <li class="hidden-sm">/</li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+
+                        <ul class="picks-menu-devices">
+                            <li><a href="#">Expertos</a></li>
+                            <li><a href="#">Picks</a></li>
+                            <li><a href="#">Quinielas y Juegos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                    <div id="top-search" class="col-sm-3">
+                        <form class="row" action="">
+                            <input class="input-sm col-xs-9 ML0 top-search" type="text" name="search" placeholder="Búsqueda">
+                            <button>
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <nav id="main-nav" class="col-sm-10 grayGradient">
+                        <h4 class="hidden-categories">
+                            <a href="#" class="main-nav-devices-btn"><span class="glyphicon glyphicon-th-list MR10"></span>Categorías</a>
+                        </h4>
+                        <ul>
+                            <li><a href="#">Soccer</a></li>
+                            <li><a href="#">Fútbol Americano</a></li>
+                            <li><a href="#">Beisbol</a></li>
+                            <li><a href="#">Basquetbol</a></li>
+                            <li><a href="#">Box</a></li>
+                            <li><a href="#">Tennis</a></li>
+                        </ul>
+
+                        <ul class="main-nav-devices">
+                            <li><a href="#">Soccer</a></li>
+                            <li><a href="#">Fútbol Americano</a></li>
+                            <li><a href="#">Beisbol</a></li>
+                            <li><a href="#">Basquetbol</a></li>
+                            <li><a href="#">Box</a></li>
+                            <li><a href="#">Tennis</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </nav>
+                    <div id="login" class="col-sm-2">
+                        <button class="btn btn-link"><span class="left MR5 login-txt">login</span> <span class="glyphicon glyphicon-log-in"></span></button>
+                    </div>
                 </div>
             </div>
-    	</div>
+    	</header><!-- ends header -->
+
+        <div class="ad-section ad-top hidden-sm row">
+            <div class="col-md-12">
+                <img class="DB M0A img-responsive" src="img/ad-samples/home-top-desktop.jpg" alt="Ad Sample">
+            </div>
+        </div><!-- ends Ad Section -->
+
+        <div class="content-wrapper row MT20">
+            <div class="col-sm-8 left-column PT15">
+                <section class="flexslider">
+                    <h3 class="hidden-seo">Carrusel de Noticias</h3>
+                    <ul class="slides">
+                        <li data-thumb="img/slider/flex-1.jpg">
+                            <a href="#">
+                                <img src="img/slider/flex-1.jpg" />
+                                <article class="slider-article">
+                                    <h2>Título de Slide</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolorem, officiis nihil sapiente usto laudantium.</p>
+                                </article>
+                            </a>
+                        </li>
+                        <li data-thumb="img/slider/flex-2.jpg">
+                            <a href="#">
+                                <img src="img/slider/flex-2.jpg" />
+                                <article class="slider-article">
+                                    <h2>Título de Slide</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, aliquid reiciendis beatae aut </p>
+                                </article>
+                            </a>
+                        </li>
+                        <li data-thumb="img/slider/flex-3.jpg">
+                            <a href="#">
+                                <img src="img/slider/flex-3.jpg" />
+                                <article class="slider-article">
+                                    <h2>Título de Slide</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusantium, eveniet atque sunt ut m. Dolorum, perferendis!</p>
+                                </article>
+                            </a>
+                        </li>
+                        <li data-thumb="img/slider/flex-4.jpg">
+                            <a href="#">
+                                <img src="img/slider/flex-4.jpg" />
+                                <article class="slider-article">
+                                    <h2>Título de Slide</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptates pariatur veniam nostrum enetur ut.</p>
+                                </article>
+                            </a>
+                        </li>
+                    </ul>
+                </section><!-- ends flexslider -->
+                <div class="ad-section visible-sm row">
+                    <div class="col-md-12 MT10 MB20">
+                        <img class="DB M0A img-responsive" src="img/ad-samples/home-top-desktop.jpg" alt="Ad Sample">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img class="DB M0A img-responsive" src="img/ad-samples/home-top-desktop.jpg" alt="Ad Sample">
+                    </div>
+                </div><!-- ends Ad Section -->
+            </div>
+
+            <div class="col-sm-4 right-column PT15">
+                <aside class="picks-tabs left w100">
+                    <h3 class="picks-title lightGrayGradient">Picks</h3>
+                    <ul class="picks-tabs-nav-desktop blueGradient">
+                      <li class="active"><a href="#expertos" data-toggle="tab">Top Expertos</a></li>
+                      <li><a href="#comprados" data-toggle="tab">+ Comprados</a></li>
+                      <li><a href="#free" data-toggle="tab">Free</a></li>
+                    </ul>
+
+                    <ul class="picks-tabs-nav-devices blueGradient">
+                        <li>
+                            <a href="#free" data-toggle="tab" id="free-icon">
+                            <button class="btn btn-link"><span class="glyphicon glyphicon-certificate"></span></button></a>
+                        </li>
+                        <li>
+                            <a href="#comprados" data-toggle="tab" id="comprados-icon">
+                            <button class="btn btn-link"><span class="glyphicon glyphicon-tags"></span></button></a>
+                        </li>
+                        <li class="active">
+                            <a href="#expertos" data-toggle="tab" id="expertos-icon">
+                            <button class="btn btn-link"><span class="glyphicon glyphicon-star"></span></button></a>
+                        </li>
+                        <li>
+                            <span class="FZ14 tab-text active expertos">Top Expertos</span>
+                            <span class="FZ14 tab-text comprados">+ Comprados</span>
+                            <span class="FZ14 tab-text free">Free</span>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content left w100 lightGrayGradient">
+                        <section class="tab-pane picks-tab active" id="expertos">
+                            <h3 class="hidden-seo">Top Expertos</h3>
+                            <ul>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Expert Name</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Expert Name</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Expert Name</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Expert Name</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Expert Name</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                            </ul>
+                        </section><!-- ends expertos -->
+
+                        <section class="tab-pane picks-tab" id="comprados">
+                            <h3 class="hidden-seo">Picks más comprados</h3>
+                            <ul>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Más Comprados</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Más Comprados</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Más Comprados</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Más Comprados</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Más Comprados</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                            </ul>
+                        </section><!-- ends comprados -->
+
+                        <section class="tab-pane picks-tab" id="free">
+                            <h3 class="hidden-seo">Free Picks</h3>
+                            <ul>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Free</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Free</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Free</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Free</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article>
+                                        <figure class="expert-thumb">
+                                            <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                                        </figure>
+                                        <div class="expert-info">
+                                            <h3 class="title">Free</h3>
+                                            <table class="expert-statistics">
+                                                <tr>
+                                                    <th>Yield</th>
+                                                    <th>Últim. 10 Tips</th>
+                                                    <th>Tips</th>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="green">4.89%</span></td>
+                                                    <td><span class="green">3V</span> <span class="orange">6D</span> 1N</td>
+                                                    <td><span class="blue">2831</span></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <a class="btn btn-link">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </article>
+                                </li>
+                            </ul>
+                        </section><!-- ends free -->
+                    </div>
+                    <a href="#" class="left w100 FZ18 Tcenter MT10 MB10">Ver todos los expertos</a>
+                </aside><!-- ends Picks Tabs -->
+            </div>
+        </div><!-- ends content wrapper -->
+
+        <div class="content-wrapper row">
+            <section class="col-sm-4 ultimas-noticias">
+                <h3 class="title greenGradient">Últimas Noticias</h3>
+                <ul class="ultimas-noticias-list lightGrayGradient">
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="cat">
+                                <span>Liga mx</span>
+                            </div>
+                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        </a>
+                    </li>
+                </ul>
+            </section><!-- ends ultimas noticias -->
+            <section class="col-sm-4 resumen-noticias">
+                <h3 class="hidden-seo">Resumen de noticias</h3>
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm soccer-pick"></span>
+                        <img src="img/development-imgs/resumen-img.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </article>
+
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm basketball-pick"></span>
+                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </article>
+            </section><!-- ends resumen noticias -->
+            
+            <div class="col-sm-4">
+                <div class="ad-section ad-right hidden-xs left w100">
+                    <img class="img-responsive" src="img/ad-samples/right-side-desktop.jpg" alt="Ad Sample">
+                </div>
+                <div class="ad-section ad-right visible-sm left MT20 w100">
+                    <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
+                </div>    
+            </div>
+        </div><!-- ends content wrapper -->
+
+        <div class="content-wrapper three-col-ad-section hidden-xs row PB20">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
+            </div>
+        </div><!-- ends content wrapper -->
+
+        <div class="content-wrapper row">
+            <section class="col-sm-4 other-news hidden-xs">
+                <h3 class="hidden-seo">Otras Noticias</h3>
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm box-pick"></span>
+                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                    <footer>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm baseball-pick"></span>
+                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                    <footer>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            </section>
+            <section class="col-sm-4 other-news hidden-xs">
+                <h3 class="hidden-seo">Otras Noticias</h3>
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm americano-pick"></span>
+                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                    <footer>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article>
+                    <figure>
+                        <span class="pick-ui-icon-sm tennis-pick"></span>
+                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
+                    </figure>
+                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
+                    <a class="btn btn-link">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                    <footer>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            </section>
+            <aside class="col-sm-4 matchups">
+                <h3 class="title blueGradient">Matchups</h3>
+                <ul class="matchups-list lightGrayGradient">
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-1">
+                                <span class="pick-ui-icon-md soccer-pick"></span>
+                                <span class="matchup-cat">Soccer</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-1" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-2">
+                                <span class="pick-ui-icon-md americano-pick"></span>
+                                <span class="matchup-cat">Fútbol Americano</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-2" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-3">
+                                <span class="pick-ui-icon-md baseball-pick"></span>
+                                <span class="matchup-cat">Béisbol</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-3" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-4">
+                                <span class="pick-ui-icon-md box-pick"></span>
+                                <span class="matchup-cat">Box</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-4" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-5">
+                                <span class="pick-ui-icon-md basketball-pick"></span>
+                                <span class="matchup-cat">Basketball</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-5" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-6">
+                                <span class="pick-ui-icon-md tennis-pick"></span>
+                                <span class="matchup-cat">Tennis</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-6" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>
+                            <a data-toggle="collapse" href="#matchup-7">
+                                <span class="pick-ui-icon-md hockey-pick"></span>
+                                <span class="matchup-cat">Hockey</span>
+                            </a>
+                        </h4>
+
+                        <div id="matchup-7" class="matchup-content collapse">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+
+            <div class="ad-section ad-bottom hidden-sm left w100 MB20">
+                <div class="col-md-12">
+                    <img class="DB M0A img-responsive" src="img/ad-samples/home-bottom-desktop.jpg" alt="Ad Sample">
+                </div>
+            </div><!-- ends Ad Section -->
+        </div><!-- ends content wrapper -->
+
+        <footer id="footer-wrapper" class="row">
+            <section class="col-sm-4 top-10-expertos">
+                <h3 class="title">Top 10 Expertos</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="col-sm-4 resultados">
+                <h3 class="title">Resultados</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure class="experto-icon">
+                                <img src="img/development-imgs/antonio-de-valdes.jpg" alt="Experto">
+                            </figure>
+                            <span class="experto-link">Nombre de Experto</span>
+                            <span class="resultado-numero">123456</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <div class="col-sm-4 social-section">
+                <h3 class="title">Síguenos en</h3>
+                <ul class="left w100">
+                    <li>
+                        <a href="#">
+                            <span class="social-icon icon-facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="social-icon icon-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="social-icon icon-youtube"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 class="title">Opciones de Pago</h3>
+                <ul class="left w100">
+                    <li>
+                        <img class="social-icon-img" src="img/development-imgs/visa-icon.png" alt="Visa">
+                    </li>
+                    <li>
+                        <img class="social-icon-img" src="img/development-imgs/mastercard-icon.png" alt="Visa">
+                    </li>
+                    <li>
+                        <img class="social-icon-img" src="img/development-imgs/paypal-icon.png" alt="Visa">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap left w100 MT20">
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Soccer</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Futbol Americano</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Beisbol</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Básquetbol</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Box</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 sitemap-node">
+                    <h6 class="title">Tennis</h6>
+                    <ul>
+                        <li><a href="#">Quinielas y Juegos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Matchups</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Tabla de Posiciones</a></li>
+                        <li><a href="#">Plantilla</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Estadísticas de Jugadores</a></li>
+                        <li><a href="#">Estadísticas de Equipos</a></li>
+                    </ul>
+                </div>
+            </div><!-- ends sitemap -->
+
+            <div class="copyright col-xs-12 MT20">
+                <div class="col-sm-10">
+                    <p class="left MT5 ML10">© 2014 PickLounge. Todos los Derechos Reservados.<br>
+                        Seguridad&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Términos y Condiciones</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Aviso de Privacidad</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <a class="medren-logo" href="#"><img src="img/development-imgs/medrenlogic-logo-bw.png" alt="Creado por Medrenlogic"></a>
+                </div>
+            </div>
+        </footer><!-- ends footer wrapper -->
     </div><!-- ends main container -->
+
+    <div id="super-banner">
+        <!-- El super banner debe ser máximo 1680px de ancho y mínimo 1280px de ancho, ya que el contenedor principal ocupa un ancho máximo de 960px, esto da un margen de 160px para que el super banner sea visible a las orillas de la pantalla en pantallas de 1280px --> 
+        <img src="img/super-banner/fifa14.jpg" alt="">
+    </div><!-- ends super banner -->
 
 	<!-- Scripts -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/ux.js"></script>
         
     <!-- Google Analytics -->

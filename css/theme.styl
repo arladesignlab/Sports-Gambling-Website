@@ -35,6 +35,10 @@ copyTxt = 'ralewayregular', Arial, Helvetica, sans-serif
 title = 'ralewayheavy', Arial, Helvetica, sans-serif
 subtitle = 'ralewaymedium', Arial, Helvetica, sans-serif
 buttonsFont = 'ralewaybold', Arial, Helvetica, sans-serif
+ligthFont = 'ralewaylight', Arial, Helvetica, sans-serif
+
+openRegular = 'OpenSansRegular', Arial, Helvetica, sans-serif
+openBold = 'OpenSansBold', Arial, Helvetica, sans-serif
 
 // -------------- Theme Styles -------------- //
 
@@ -44,10 +48,11 @@ html
 	max-width 100%
 
 body
-	background white
-	color txtGray
+	background blue
+	color txtColor
 	font-family copyTxt
 	font-size 62.5% /* 1em = 10px */
+	position relative
 	max-width 100%
 
 .hidden-seo
@@ -57,20 +62,1084 @@ body
 	top -9999px
 	width 0
 
-.container
-	font-size 2em
+a 
+	transition all .2s ease-in-out
 
-.color1
-	background gray
+	&:hover
+		color green
 
-.color2 
-	background lightGray
+.title 
+	color titleColor
+	font-family ralewaybold
+	margin-top 0
 
-.color3
-	background darkGray
+.green
+	color green
+
+.orange
+	color orange
+
+.blue 
+	color blue
+
+.darkBlue 
+	color darkBlue
+
+.pick-ui-icon-sm
+	background darkBlue url(../img/picks-ui-sprite_01.png) no-repeat
+	border 1px solid rgba(255,255,255,0.2)
+	border-radius 50%
+	box-shadow 1px 1px 0px 0px rgba(0,0,0,0.3)
+	display inline-block
+	height 32px
+	overflow hidden
+	width 32px
+
+.pick-ui-icon-sm.soccer-pick
+	background-position -10px -9px
+
+.pick-ui-icon-sm.box-pick
+	background-position -60px -9px
+
+.pick-ui-icon-sm.tennis-pick
+	background-position -109px -9px
+
+.pick-ui-icon-sm.basketball-pick
+	background-position -159px -9px
+
+.pick-ui-icon-sm.baseball-pick
+	background-position -209px -9px
+
+.pick-ui-icon-sm.hockey-pick
+	background-position -258px -10px
+
+.pick-ui-icon-sm.americano-pick
+	background-position -309px -9px
+
+.pick-ui-icon-md
+	background url(../img/picks-ui-sprite_01.png) no-repeat
+	display inline-block
+	height 50px
+	overflow hidden
+	width 50px
+
+.pick-ui-icon-md.soccer-pick
+	background-position 0 -50px
+
+.pick-ui-icon-md.box-pick
+	background-position -50px -50px
+
+.pick-ui-icon-md.tennis-pick
+	background-position -100px -50px
+
+.pick-ui-icon-md.basketball-pick
+	background-position -150px -50px
+
+.pick-ui-icon-md.baseball-pick
+	background-position -200px -50px
+
+.pick-ui-icon-md.hockey-pick
+	background-position -250px -50px
+
+.pick-ui-icon-md.americano-pick
+	background-position -300px -50px
 
 // Layout Styling
+.container
+	max-width 960px
 
+#header
+	background white
+	border-radius 5px 7px 7px 5px
+	box-shadow 4px 4px 0px rgba(0,0,0,0.2)
+	margin-top 3em
+
+	#logo
+		padding-top 1.3em
+
+	#picks-menu
+		background darkBlue
+		min-height 40px
+		padding-bottom 5px
+		padding-top 6px
+
+		h4.hidden-picks
+			color white
+			border-bottom 2px solid darkBlue
+			display none
+			font-family ligthFont
+			margin 0
+			padding 0
+			text-align center
+			width 100%
+
+			a.picks-menu-devices-btn
+				color white
+				text-decoration none
+
+				span 
+					color white
+					font-size 1.1em
+
+		ul
+			padding 0
+			margin 0
+
+			li
+				color blue
+				float left
+				font-size 1.6em
+				padding 3px 5px
+
+				a 
+					color rgba(255,255,255,0.8)
+					float left
+
+					&:hover
+						color green
+						text-decoration none
+
+		ul.picks-menu-devices
+			display none
+
+	#top-search
+		background darkBlue
+		color blue
+		border-radius 0 5px 0 0
+		min-height 40px
+		padding-bottom 5px
+		padding-top 5px
+
+		input
+			background rgba(66, 93, 161, 0.4)
+			border none
+			border-radius 3px 3px
+			color lightGray
+
+		button
+			background darkBlue
+			border none
+			box-shadow none
+			color blue
+			padding 6px 10px
+			text-shadow none
+
+			span.glyphicon
+				font-size 1.8em
+				float right
+				line-height 100%
+
+	#main-nav
+		font-size 1.6em
+		border-bottom 2px solid lightGray
+
+		.hidden-categories
+			display none
+
+		ul
+			padding 0
+			margin 0
+			
+			li
+				float left
+				color blue
+
+				a
+					color darkBlue
+					float left
+					padding 0.6em 0.9em
+
+					&:hover
+						color lightBlue
+						text-decoration none
+
+				&:first-child
+					a
+						padding-left 0.15em
+
+		ul.main-nav-devices
+			display none
+
+	#login
+		background darkGray
+		border-bottom 2px solid black
+		border-radius 0 0 5px 0
+		font-size 1.6em
+		padding-bottom 0.17em
+		padding-top 0.17em
+
+		button
+			color white
+			font-size 1em
+			width 100%
+
+		&:hover
+			background green
+			border-bottom 2px solid darkGreen
+
+.content-wrapper
+	background white
+
+.flexslider
+	box-shadow 0 0 0 1px lightGray
+
+	.slides
+		li 
+			position relative
+
+			a
+				.slider-article
+					background rgba(44,44,44,0.95)
+					bottom 0
+					box-sizing border-box
+					color white
+					font-size 1.6em
+					padding 20px
+					position absolute
+					width 100%
+					z-index 10
+
+					h2
+						color white
+						font-family ralewaybold
+						margin-top 0
+
+.picks-tabs
+	font-size 1.6em
+
+	.picks-title
+		border 1px solid lightGray
+		border-bottom none
+		border-radius 5px 5px 0 0
+		color blue
+		font-family ralewaybold
+		font-size 1em
+		margin 3px 0 0 0
+		padding 5px 10px
+		width 41%
+
+	.tab-content
+		box-shadow inset 0 7px 6px -6px rgba(0,0,0,0.4)
+		border-left 1px solid lightGray
+		border-right 1px solid lightGray
+
+	.picks-tabs-nav-desktop 
+		overflow hidden
+		margin 0
+		padding 0
+
+		li 
+			float left
+
+			a 
+				border-bottom 3px solid darkBlue
+				border-right 1px solid darkBlue
+				color white
+				display block
+				padding 10px 9px
+				text-shadow 1px 1px 1px #1b2641
+
+				&:hover
+					text-decoration none
+
+			&:last-child
+				a 
+					border-right none
+					// padding 10px 9px
+
+		li.active
+			a
+				border-bottom 3px solid darkGreen
+				text-shadow 1px 1px 1px #3c541f
+
+	.picks-tabs-nav-devices
+		display none
+
+.picks-tab
+	float left
+	width 100%
+
+	ul
+		float left
+		margin 0
+		padding 0
+		width 100%
+
+		li
+			border-bottom 1px solid lightGray
+			float left
+			width 100%
+
+			article
+				box-sizing border-box
+				float left
+				padding 8px 12px
+				position relative
+				width 100%
+
+				figure.expert-thumb
+					border 2px solid white
+					border-radius 50%
+					box-shadow 1px 1px 5px rgba(0,0,0,0.2)
+					float left
+					height 40px
+					margin 0 15px 0 0
+					overflow hidden
+					width 40px
+
+					img
+						width 100%
+
+				.expert-info
+					border-right 1px solid lightGray
+					float left
+					width 71.5%
+
+					.title 
+						color gray
+						font-size 1.2em
+						margin 5px 0 5px 0
+						text-shadow 1px 1px 1px white
+
+					table.expert-statistics
+						float left
+						font-size 0.8em
+						width 90%
+
+						tr 
+							th
+								color gray
+								text-align center
+							td 
+								color gray
+								font-family openBold
+								text-align center
+
+							&:first-child
+								border-bottom 1px solid lightGray
+
+				.btn-link
+					padding 0
+					position absolute
+					right 8px
+					top 40%
+
+					.glyphicon
+						color gray
+
+						&:hover
+							color green
+
+.ultimas-noticias
+	margin-bottom 16px
+	overflow hidden
+
+	.title 
+		border-bottom 3px solid darkGreen
+		color white
+		font-family ralewaylight
+		margin-bottom 0
+		padding 8px 10px 5px 20px
+		text-shadow 1px 1px 1px #3c541f
+
+	ul.ultimas-noticias-list
+		border-left 1px solid #dfdee3
+		border-right 1px solid #dfdee3
+		box-shadow inset 0 7px 6px -6px rgba(0,0,0,0.4)
+		float left
+		margin 0
+		padding 0
+		width 100%
+
+		li 
+			border-bottom 1px solid lightGray
+			float left
+			width 100%
+
+			a 
+				display table
+				float left
+				width 100%
+
+				.cat 
+					background rgba(0,0,0,0.3)
+					border-radius 50%
+					box-sizing border-box
+					display table
+					float left
+					color white
+					font-family ralewaybold
+					height 48px
+					margin 10px 16px 10px 10px
+					overflow hidden
+					padding 10px
+					text-align center
+					text-transform uppercase
+					width 48px
+
+					span
+						display table-cell
+						vertical-align middle
+
+				.news-title
+					display table-cell
+					font-family ralewaymedium
+					font-size 1.4em
+					padding 10px 10px 10px 0
+					vertical-align middle
+
+				&:hover
+					text-decoration none
+
+					.cat 
+						background green
+
+.resumen-noticias,
+.other-news
+	article
+		border-bottom 1px solid lightGray
+		box-sizing border-box
+		float left
+		font-size 1.6em
+		margin-bottom 16px
+		position relative
+		width 100%
+
+		figure
+			float left
+			margin-bottom 1em
+			position relative
+			width 100%
+
+			img
+				display block
+				width 100%
+
+			.pick-ui-icon-sm
+				left 10px
+				position absolute
+				top 10px
+				z-index 10
+
+		.title
+			font-size 1.2em
+
+			a 
+				color titleColor
+
+				&:hover
+					color green
+
+		p 
+			padding-right 1.5em
+
+		.btn-link
+			bottom 5px
+			font-size 1em
+			padding 0
+			position absolute
+			right 0
+
+			.glyphicon
+				color darkBlue
+
+			&:hover
+				.glyphicon
+					color green
+			
+
+		&:last-child
+			border-bottom none
+
+.other-news
+	article
+		border-bottom none
+
+		.btn-link
+			float right
+			margin-top -35px
+			position static
+
+		footer
+			background #ebeef7
+			float left
+			padding 8px 0
+			width 100%
+
+			ul 
+				margin 0
+				padding 0
+
+				li 
+					border-right 1px solid blue
+					box-sizing border-box
+					display inline-block
+					text-align center
+					width 32%
+
+					a 
+						font-size 0.8em
+
+					&:last-child
+						border-right none
+
+.matchups
+	overflow hidden
+
+	.title 
+		border-bottom 3px solid darkBlue
+		box-sizing border-box
+		color white
+		float left
+		font-family ralewaylight
+		margin 0
+		padding 8px 10px 5px 20px
+		width 100%
+
+	ul.matchups-list
+		border-left 1px solid lightGray
+		border-right 1px solid lightGray
+		box-sizing border-box
+		box-shadow inset 0 7px 6px -6px rgba(0,0,0,0.4)
+		float left
+		margin 0
+		overflow hidden
+		padding 0
+		width 100%
+
+		li 
+			border-bottom 1px solid lightGray
+			float left
+			width 100%
+
+			h4
+				float left
+				margin 0
+				width 100%
+
+				a
+					display table
+					float left
+					text-align left
+					overflow hidden
+					position relative
+					width 100%
+
+					.pick-ui-icon-md
+						left 10px
+						position absolute
+						top 0
+
+					.matchup-cat
+						box-sizing border-box
+						display table-cell
+						font-family ralewaylight
+						font-size 1.2em
+						padding 15px 0 15px 70px
+						vertical-align middle
+						width 100%
+
+					&:hover
+						text-decoration none
+
+			.matchup-content
+				background #ebeef7
+				border-top 1px solid white
+				box-sizing border-box
+				box-shadow inset 0 7px 6px -6px rgba(0,0,0,0.07)
+				float left
+				font-family openRegular
+				font-size 1.6em
+				padding 10px 16px
+				width 100%
+
+#footer-wrapper
+	background darkGray
+	color lightGray
+	font-size 1.6em
+	margin-bottom 20px
+	padding 1em 0
+
+	.top-10-expertos
+		.title 
+			border-bottom 1px solid rgba(255,255,255,0.1)
+			color lightGray
+			display inline-block
+			padding-bottom 10px
+			text-align center
+			margin-bottom 10px
+			width 100%
+
+		ul 
+			margin 0
+			overflow hidden
+			padding 0
+
+			li 
+				float left
+				padding 5px 10px
+				width 100%
+
+				a 
+					display table
+					float left 
+					width 100%
+
+					.experto-link
+						color lightGray
+						display table-cell
+						font-size 1.2em
+						vertical-align middle
+
+					&:hover
+						text-decoration none
+
+						.experto-link
+							color green
+
+				&:last-child
+					border none
+
+	.resultados
+		.title 
+			border-bottom 1px solid rgba(255,255,255,0.1)
+			color lightGray
+			display inline-block
+			padding-bottom 10px
+			text-align center
+			margin-bottom 10px
+			width 100%
+
+		ul 
+			margin 0
+			overflow hidden
+			padding 0
+
+			li 
+				float left
+				padding 5px 10px
+				width 100%
+
+				a 
+					display table
+					float left 
+					width 100%
+
+					.resultado-numero
+						color lightGray
+						display table-cell
+						font-family openRegular
+						vertical-align middle
+
+					.experto-link
+						color lightGray
+						display table-cell
+						font-size 1em
+						vertical-align middle
+
+					&:hover
+						text-decoration none
+
+						.experto-link
+							color green
+
+				&:last-child
+					border none
+
+.experto-icon
+	border 2px solid #fff
+	border-radius 50%
+	box-shadow 1px 1px 5px rgba(0,0,0,0.2)
+	float left
+	height 32px
+	margin 0 15px 0 0
+	overflow hidden
+	width 32px
+
+	img
+		width 100%
+
+.social-section
+	font-size 1.6em
+
+	.title
+		color lightGray
+		padding-bottom 10px
+		text-align center
+		margin-bottom 10px
+
+	ul
+		margin 0 0 40px 0
+		padding 0
+		text-align center
+
+		li 
+			display inline-block
+			margin 0 5px
+			overflow hidden
+			padding 0
+
+			a 
+				float left
+				display table
+				color white
+
+				.social-icon
+					background white
+					border-radius 50%
+					color darkGray
+					display table-cell
+					height 40px
+					vertical-align middle
+					width 40px
+
+				&:hover
+					text-decoration none
+
+					.social-icon
+						background lightGreen
+
+			.social-icon-img
+				height 40px 
+				width 40px
+
+.sitemap-node
+	font-size 1em 
+
+	.title 
+		color lightGray
+		font-size 0.9em
+	ul 
+		margin 0
+		padding 0
+
+		li 
+			a 
+				color lightGray
+				font-size 0.7em
+
+				&:hover
+					color green
+
+.sitemap
+	border-top 1px solid rgba(255,255,255, 0.1)
+	box-shadow 0 -1px 0 0 black
+	padding-top 20px
+
+.copyright 
+	border-top 1px solid rgba(255,255,255, 0.1)
+	box-shadow 0 -1px 0 0 black
+	color gray
+	font-size 0.8em
+	overflow hidden
+	padding-top 1.6em 
+
+	a 
+		color gray
+
+		&:hover
+			color green
+
+	.medren-logo
+		float right
+		margin-right 10px
+		opacity 0.5
+		width 180px
+
+		img 
+			display block
+			width 180px
+
+		&:hover
+			opacity 1
+
+#super-banner
+	display block
+	left 0
+	overflow hidden
+	position absolute
+	top 0
+	z-index -1
+	width 100%
+
+	img
+		display block
+		margin 0 auto
+		min-width 1680px
+		width 1680px
+
+@media screen and (max-width:1680px)
+	#super-banner
+		img
+			min-width 100%
+			width 100%
+
+@media screen and (max-width:992px)
+	#header
+		#picks-menu
+			ul
+				li 
+					padding 3px 9px
+
+				li.hidden-xs
+					display none
+
+		#top-search
+			button
+				span.glyphicon
+					font-size 1.4em
+
+		#main-nav
+			float left
+			font-size 1.4
+			width 91%
+
+			ul
+				li 
+					a
+						padding 0.6em 0.42em
+
+		#login
+			padding-left 6px
+			width 9%
+
+			span.login-txt
+				display none
+
+	.picks-tabs
+		font-size 1.6em
+
+		.picks-title
+			width 45%
+
+		.picks-tabs-nav-desktop
+			display none
+
+		.picks-tabs-nav-devices
+			display block 
+			overflow hidden
+			margin 0
+			padding 0
+
+			li 
+				float right
+
+				a 
+					border-bottom 3px solid darkGreen
+					border-right 1px solid darkGreen
+					color white
+					display block
+					text-shadow 1px 1px 1px darkGreen
+
+					.glyphicon
+						color white
+
+					&:hover
+						text-decoration none
+
+				&:first-child-child
+					a 
+						border-right none
+						// padding 10px 9px
+
+				&:last-child
+					float left
+
+				.tab-text
+					display none
+					color white
+					padding 7px 0
+					text-align center
+					text-shadow 1px 1px 1px #1b2641
+					width 96px
+
+				.tab-text.active
+					display inline-block
+
+			li.active
+				a
+					background #2c2c2c
+					border-bottom 3px solid #0a0a16
+					text-shadow 1px 1px 1px #3c541f
+
+					button
+						focus none
+						
+
+	.picks-tab
+		ul
+			li
+				article
+					figure.expert-thumb
+						display none
+
+					.expert-info
+						width 90%
+
+	.ultimas-noticias
+		ul.ultimas-noticias-list
+			li
+				&:last-child
+					display none
+
+	.ad-top
+		margin 16px 0
+
+	.sitemap 
+		display none
+
+@media screen and (max-width:767px)
+	#header
+		background transparent
+		border-radius 0
+		margin-bottom 0
+		margin-top 0
+		box-shadow none
+		
+		#logo
+			background white
+			overflow hidden
+
+			img
+				margin 0 auto 20px auto
+				max-width 240px
+
+		#top-search
+			float right
+			width 20%
+
+		#picks-menu
+			float left
+			padding 0 !important
+			width 100%
+
+			h4.hidden-picks
+				display block
+				float left
+				font-size 2em
+				padding 10px 0
+
+			ul
+				display none
+				text-align center
+
+				li 
+					padding 0 !important
+					margin 0
+					width 100%
+
+					a 
+						background green
+						border-bottom 1px solid darkGreen
+						padding 5px 0
+						text-align center
+						width 100%
+
+						&:hover
+							color darkBlue
+
+				li.hidden-sm
+					display none !important
+
+		#login
+			display none
+
+		#top-search
+			background none
+			border-radius 0
+			padding 0
+			width 9%
+
+			.top-search
+				display none
+
+			.row
+				margin 0
+
+				button
+					background #e7e8ec
+					display block
+					padding 9px 0 10px 0
+					width 100%
+
+					.glyphicon-search
+						float none
+						font-size 2em
+
+		#main-nav
+			.hidden-categories
+				display block
+				font-family ralewayregular
+				text-shadow 1px 1px 0 white
+
+				a
+					color gray
+
+					.glyphicon
+						color blue
+
+					&:hover
+						color blue
+						text-decoration none
+
+			ul
+				display none
+
+			ul.main-nav-devices
+				display none
+				width 100%
+
+				li 
+					float left
+					width 100%
+
+					a 
+						display block
+						border-bottom 1px solid lightGray
+						text-align center
+						width 100%
+
+						&:hover
+							background blue
+							color white
+
+	.content-wrapper
+		margin-top 0
+
+	.right-column
+		padding-top 0
+
+	.picks-tab
+		ul
+			li
+				article
+					figure.expert-thumb
+						display block
+
+					.expert-info
+						width 78%
+
+						.title 
+							padding 5px 0 5px 0
+
+					.btn-link
+						top 30%
+
+	.ultimas-noticias
+		ul.ultimas-noticias-list
+			li
+				&:last-child
+					display block
+
+	.matchups 
+		margin-bottom 20px
+
+	#footer-wrapper
+		margin-bottom 0
+
+		.top-10-expertos,
+		.resultados
+			margin-bottom 20px
 
 // Media Queries			
 // @media screen and (max-width:480px)
