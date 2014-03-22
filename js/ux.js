@@ -91,9 +91,20 @@ $(document).ready(function() {
   }
   $('#login button.btn-link').on('click', showLogin);
 
+  $('.login-btn a').on('click', showLogin);
+  $('.login-btn a').on('click', function(){
+    $('#main-nav ul.main-nav-devices').slideToggle();
+  });
+
   //Login Functionality
   function perfilShow(){
+
     $('#perfil-dropdown').slideToggle();
   }
   $('#perfil button.btn-link').on('click', perfilShow);
+
+  $('.perfil-btn a').on('click', perfilShow);
+  $('.perfil-btn a').on('click', function(){
+    $('#main-nav ul.main-nav-devices').slideToggle();
+  });
 });

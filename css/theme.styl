@@ -425,7 +425,7 @@ a
 	right 0
 	top 81px
 	width 300px
-	z-index 10
+	z-index 12
 
 	.form-group
 		display inline-block
@@ -471,7 +471,7 @@ a
 	right 0
 	top 81px
 	width 300px
-	z-index 10
+	z-index 12
 
 	.mis-picks-content
 		display inline-block
@@ -1331,6 +1331,13 @@ a
 			span.login-txt
 				display none
 
+		#perfil
+			padding-left 6px
+			width 9%
+
+			span.perfil-txt
+				display none
+
 	.sub-menu
 		max-width 720px
 
@@ -1472,8 +1479,28 @@ a
 				li.hidden-sm
 					display none !important
 
-		#login
+		#login,
+		#perfil
 			display none
+		
+		#login-dropdown
+			border-radius 0
+			border-top none
+			float left
+			position static
+			width 100%
+
+			.fb-login-container
+				clear both
+				float left
+				width 100%
+			
+		#perfil-dropdown
+			border-radius 0
+			border-top none
+			float left
+			position static
+			width 100%
 
 		#top-search
 			background none
