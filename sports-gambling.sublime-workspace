@@ -4,36 +4,152 @@
 		"selected_items":
 		[
 			[
-				"dar",
-				"darkGray"
-			],
-			[
-				"border",
-				"border-radius"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"bl",
-				"black"
-			],
-			[
-				"ralewaye",
-				"ralewayheavy"
-			],
-			[
-				"ral",
-				"ralewaylight"
+				"pa",
+				"padding"
 			],
 			[
 				"bor",
 				"border"
 			],
 			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"boe",
+				"border-bottom"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"dar",
+				"darkBlue"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"m",
+				"main-nav"
+			],
+			[
+				"ral",
+				"ralewaybold"
+			],
+			[
+				"col",
+				"txtColor"
+			],
+			[
+				"li",
+				"lightGray"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
 				"gr",
-				"gray"
+				"green"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"subtit",
+				"subtitle"
+			],
+			[
+				"subtitle",
+				"subtitleColor"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"lih",
+				"lightGray"
+			],
+			[
+				"ligh",
+				"lightGray"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"dark",
+				"darkBlue"
+			],
+			[
+				"top",
+				"top-10-expertos"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"exp",
+				"experto-link"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ralewaye",
+				"ralewayheavy"
 			],
 			[
 				"tra",
@@ -44,20 +160,12 @@
 				"expert-thumb"
 			],
 			[
-				"pa",
-				"padding-top"
-			],
-			[
 				"fi",
 				"first-child"
 			],
 			[
 				"pi",
 				"picks-tab"
-			],
-			[
-				"p",
-				"picks-tabs"
 			],
 			[
 				"tab",
@@ -72,32 +180,8 @@
 				"expert-statistics"
 			],
 			[
-				"ma",
-				"margin"
-			],
-			[
-				"borde",
-				"border-bottom"
-			],
-			[
-				"dark",
-				"darkGray"
-			],
-			[
-				"op",
-				"openBold"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
 				"ra",
 				"ralewayregular"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"bore",
@@ -112,10 +196,6 @@
 				"lightGray"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"max",
 				"max-height"
 			],
@@ -128,20 +208,8 @@
 				"absolute"
 			],
 			[
-				"li",
-				"lightGray"
-			],
-			[
 				"te",
 				"text-align"
-			],
-			[
-				"h",
-				"h3	Tag"
-			],
-			[
-				"top",
-				"top-search"
 			],
 			[
 				"zoo",
@@ -188,16 +256,8 @@
 				"float"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"Aller",
 				"AllerRegular"
-			],
-			[
-				"box",
-				"box-shadow"
 			],
 			[
 				"AB",
@@ -272,18 +332,6 @@
 				"display"
 			],
 			[
-				"ligh",
-				"lightBlue"
-			],
-			[
-				"no",
-				"none"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
 				"campus",
 				"campus-info"
 			],
@@ -344,10 +392,6 @@
 				"color"
 			],
 			[
-				"marg",
-				"margin-bottom"
-			],
-			[
 				"border-bo",
 				"border-bottom"
 			],
@@ -362,10 +406,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"bo",
-				"bold"
 			],
 			[
 				"video",
@@ -474,99 +514,11 @@
 			[
 				"OSBold",
 				"OSBoldItalic"
-			],
-			[
-				"he",
-				"height"
-			],
-			[
-				"bord",
-				"border-radius"
-			],
-			[
-				"hi",
-				"hidden"
-			],
-			[
-				"gra",
-				"gray"
-			],
-			[
-				"rg",
-				"rgba	rgba"
-			],
-			[
-				"inli",
-				"inline-block"
-			],
-			[
-				"OSE",
-				"OSExtraItalic"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"fu",
-				"function"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 36209,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/theme.styl",
-			"settings":
-			{
-				"buffer_size": 9779,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fonts/typography.css",
-			"settings":
-			{
-				"buffer_size": 8326,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/ux.js",
-			"settings":
-			{
-				"buffer_size": 1113,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/gradients.css",
-			"settings":
-			{
-				"buffer_size": 8332,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/flexslider.css",
-			"settings":
-			{
-				"buffer_size": 4949,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -608,7 +560,16 @@
 	},
 	"file_history":
 	[
+		"/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-email-template-B.html",
+		"/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-email-template-A.html",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/gradients.css",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/index.html",
 		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/theme.styl",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/fonts/typography.css",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/interna.html",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/js/ux.js",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/flexslider.css",
+		"/Users/RobArpi/Downloads/social-icons/style.css",
 		"/Users/RobArpi/AdhocWorks/Dropbox/Picks/Desarrollo/css/theme.styl",
 		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/index.html",
 		"/Users/RobArpi/AdhocWorks/Dropbox/Robfiles/RBS/includes/sidebar/business-navigation-node.php",
@@ -726,16 +687,7 @@
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-FR.html",
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-FR.html",
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-EN.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-EN.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-15-EN.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-EN.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/email.html",
-		"/Users/RobArpi/AdhocWorks/Web/BlackIronData/January14/Full_Website_Copy/login/index.php",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/medrenlogic-landing-page.sublime-project",
-		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/ux.js",
-		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/project-page.html",
-		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/js/submenu.js",
-		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/jquery-1.10.2.min.js"
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-EN.html"
 	],
 	"find":
 	{
@@ -753,6 +705,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-3",
+			"yd",
+			"src=\"http://www.adhocworks.com/clients/Sheridan/Email-Module/",
+			"-3",
+			"src=\"img/",
+			"background=\"img/",
+			"-3",
+			"280",
+			"-2",
+			"img/hero-img.jpg",
+			"hero-module",
+			"valign=\"middle\"",
+			"lightGray",
+			"50px",
+			"15px",
+			"col-sm-4",
+			";",
+			":",
+			"div",
+			";",
+			":",
+			"href=\"\"",
+			"content",
+			"pan",
+			"f1f1f3",
+			"lightGray",
+			"#e8e8ea",
+			"lightGray",
+			"span",
+			"ul",
+			".title",
+			"                    \n",
+			"section",
+			"div",
+			"	\n",
+			"md-2",
+			"section",
+			"fonts/",
+			";",
+			":",
+			"div",
 			"5",
 			"3",
 			"button",
@@ -839,48 +832,7 @@
 			"position: absolute;",
 			".clientes",
 			"img",
-			"class='active'",
-			"carrier",
-			"business-internet/",
-			"carrier-services",
-			"<?php bloginfo('template_directory'); ?>",
-			"href=\"#\"",
-			"contacto",
-			".form",
-			"</option>",
-			"descargas",
-			"/uploads/",
-			"src=\"/img/pdf-icon.png\"",
-			"echo \" class='in'\";",
-			"class=\"title\"",
-			"#",
-			"\n                    			<br/>",
-			"10px",
-			"textarea",
-			"comment-form-comment",
-			"comments",
-			"comment-author",
-			"commentlist",
-			"h3",
-			"id=\"comments",
-			"id=comments",
-			"src=\"/img/",
-			"alianzas",
-			"clientes",
-			"/img/",
-			"nuestros",
-			"patternBg",
-			"src=\"images/",
-			"></",
-			"<span>",
-			"<p>",
-			"img src=\"http://primus.ca/business/email/coms/20130528/images/",
-			"<?php bloginfo('siteurl'); ?>",
-			"If",
-			"MB5",
-			";",
-			":",
-			"pound"
+			"class='active'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -898,178 +850,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 36209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35031,
-								35031
-							],
-							[
-								35036,
-								35036
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10266.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/theme.styl",
-					"settings":
-					{
-						"buffer_size": 9779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3501,
-								3501
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3786.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "fonts/typography.css",
-					"settings":
-					{
-						"buffer_size": 8326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5180,
-								5180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1798.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/ux.js",
-					"settings":
-					{
-						"buffer_size": 1113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/gradients.css",
-					"settings":
-					{
-						"buffer_size": 8332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6867,
-								6867
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/flexslider.css",
-					"settings":
-					{
-						"buffer_size": 4949,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1843,
-								1843
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 867.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

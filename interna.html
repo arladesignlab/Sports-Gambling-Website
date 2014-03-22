@@ -30,6 +30,16 @@
     <script src="js/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
+    <!-- Facebook Plugin -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=192763634155580";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 	<!--[if lt IE 7]>
         <div class="alert alert-block alert-error Tcenter">
         	<p>Está utilizando un navegador obsoleto. <a href="http://browsehappy.com/" class="btn btn-danger">Descargue un nuevo navegador</a> o <a class="btn btn-success" href="http://www.goocom/chromeframe/?redirect=true">instale Google Chrome </a> para mejorar la experiencia de uso en nuestro sitio.</p>
@@ -77,12 +87,12 @@
                             <a href="#" class="main-nav-devices-btn"><span class="glyphicon glyphicon-th-list MR10"></span>Categorías</a>
                         </h4>
                         <ul>
-                            <li class="nav-item soccer-cat"><a href="#">Soccer</a></li>
-                            <li class="nav-item americano-cat"><a href="#">Fútbol Americano</a></li>
-                            <li class="nav-item baseball-cat"><a href="#">Beisbol</a></li>
-                            <li class="nav-item basketball-cat"><a href="#">Basquetbol</a></li>
-                            <li class="nav-item box-cat"><a href="#">Box</a></li>
-                            <li class="nav-item tennis-cat"><a href="#">Tennis</a></li>
+                            <li><a href="#">Soccer</a></li>
+                            <li><a href="#">Fútbol Americano</a></li>
+                            <li><a href="#">Beisbol</a></li>
+                            <li><a href="#">Basquetbol</a></li>
+                            <li><a href="#">Box</a></li>
+                            <li><a href="#">Tennis</a></li>
                         </ul>
 
                         <ul class="main-nav-devices">
@@ -95,282 +105,22 @@
                             <li><a href="#">Login</a></li>
                         </ul>
                     </nav>
-                    <div id="login" class="col-sm-2">
-                        <button class="btn btn-link"><span class="left MR5 login-txt">login</span> <span class="glyphicon glyphicon-log-in"></span></button>
+                    <div id="perfil" class="col-sm-2">
+                        <button class="btn btn-link"><span class="left MR5 login-txt">Perfil</span> <span class="glyphicon glyphicon-user"></span></button>
                     </div>
                 </div>
             </div>
 
-            <div class="sub-menu row" id="soccer-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg soccer-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
+            <div id="perfil-dropdown" class="lightGrayGradient">
+                <div class="mis-picks-content left w100">
+                    <h4>Hola nombre de usuario</h4>
                     <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-ok MR10"></span>Mis Picks</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-list-alt MR10"></span>Quinielas</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-tasks MR10"></span>Resultados</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog MR10"></span>Preferencias</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-out MR10"></span>Cerrar Sesión</a></li>
                     </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends soccer sub-menu -->
-
-            <div class="sub-menu row" id="americano-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg americano-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
-                    <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
-                    </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends americano sub-menu -->
-
-            <div class="sub-menu row" id="baseball-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg baseball-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
-                    <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
-                    </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends baseball sub-menu -->
-
-            <div class="sub-menu row" id="basketball-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg basketball-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
-                    <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
-                    </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends basketball sub-menu -->
-
-            <div class="sub-menu row" id="box-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg box-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
-                    <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
-                    </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends box sub-menu -->
-
-            <div class="sub-menu row" id="tennis-nav">
-                <div class="cat-container"><span class="pick-ui-icon-lg tennis-pick"></span></div>
-
-                <nav class="col-xs-3 sub-menu-cat col-xs-offset-1">
-                    <ul>
-                        <li><a href="#">Portada</a></li>
-                        <li><a href="#">Quinielas y Juegos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Matchups</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Tabla de Posiciones</a></li>
-                        <li><a href="#">Plantilla</a></li>
-                        <li><a href="#">Calendario</a></li>
-                        <li><a href="#">Estadísticas de Jugadores</a></li>
-                        <li><a href="#">Estadísticas de Equipos</a></li>
-                    </ul>
-                </nav>
-                <div class="col-xs-4 sub-menu-noticias">
-                    <h5 class="title">Noticias</h5>
-                    <ul>
-                        <li><a href="#">Aliquam, delectus, eligendi architecto</a></li>
-                        <li><a href="#">Cupiditate, eos illum dignissimos</a></li>
-                        <li><a href="#">Ea, sequi, quas, ducimus magnam</a></li>
-                        <li><a href="#">Sapiente, maxime ad aperiam ipsam?</a></li>
-                        <li><a href="#">Iste, laborum, inventore laudantium</a></li>
-                        <li><a href="#">Nobis quis aliquam eos quam earum</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 sub-menu-pick">
-                    <article class="left w100">
-                        <figure class="left w100 PR MB10">
-                            <a href="#">
-                                <img class="img-responsive" src="img/development-imgs/resumen-img.png" alt="titulo">
-                                <figcaption>Lorem ipsum dolor sit amet!</figcaption>
-                            </a>
-                        </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit maxime ad aperiam quam ipsam, <a href="#">exercitationem fuga! <span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </article>
-                </div>
-            </div><!-- ends tennis sub-menu -->
-
-            <div id="login-dropdown" class="lightGrayGradient tab-content">
-                <div class="left w100 tab-pane active" id="iniciar">
-                    <form action="" role="form" class="form-group">
-                        <h4>Inicia Sesión</h4>
-                        <input class="form-control MB10" type="text" name="email-user" placeholder="Usuario/Correo Electrónico" required>
-                        <input class="form-control MB10" type="password" name="password" placeholder="Contraseña" required>
-                        <input class="btn btn-link btn-submit right PR30 PL30" type="submit" value="Entrar">
-                        <span class="left PT8"><a href="#registrarse" data-toggle="tab">Registrarse</a></span>
-                        <hr class="left w100 MT15 MB10">
-                        <div class="w100 DB Tcenter PB10"><button class="btn btn-link fb-login PR30 PL30 blueGradient">Iniciar con Facebook</button></div>
-                        <span class="left w100 Tcenter"><a href="#" class="FZ14">¿Olvidaste tu contraseña?</a></span>
-                    </form>
-                </div>
-
-                <div class="left w100 tab-pane" id="registrarse">
-                    <form action="" role="form" class="form-group">
-                        <h4 class="subtitle">Regístrate</h4>
-                        <input class="form-control MB10" type="text" name="email-user" placeholder="Usuario/Correo Electrónico" required>
-                        <input class="form-control MB10" type="password" name="password" placeholder="Contraseña" required>
-                        <input class="btn btn-link btn-submit right PR30 PL30" type="submit" value="Registrarme">
-                        <span class="left PT8"><a href="#iniciar" data-toggle="tab">Iniciar Sesión</a></span>
-                        <hr class="left w100 MT15 MB10">
-                        <div class="w100 DB Tcenter PB10"><button class="btn btn-link fb-login PR30 PL30 blueGradient">Registrarse con Facebook</button></div>
-                    </form>
                 </div>
             </div>
     	</header><!-- ends header -->
@@ -383,56 +133,106 @@
 
         <div class="content-wrapper row MT20">
             <div class="col-sm-8 left-column PT15">
-                <section class="flexslider">
-                    <h3 class="hidden-seo">Carrusel de Noticias</h3>
-                    <ul class="slides">
-                        <li data-thumb="img/slider/flex-1.jpg">
-                            <a href="#">
-                                <img src="img/slider/flex-1.jpg" />
-                                <article class="slider-article">
-                                    <h2>Título de Slide</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolorem, officiis nihil sapiente usto laudantium.</p>
-                                </article>
-                            </a>
-                        </li>
-                        <li data-thumb="img/slider/flex-2.jpg">
-                            <a href="#">
-                                <img src="img/slider/flex-2.jpg" />
-                                <article class="slider-article">
-                                    <h2>Título de Slide</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, aliquid reiciendis beatae aut </p>
-                                </article>
-                            </a>
-                        </li>
-                        <li data-thumb="img/slider/flex-3.jpg">
-                            <a href="#">
-                                <img src="img/slider/flex-3.jpg" />
-                                <article class="slider-article">
-                                    <h2>Título de Slide</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusantium, eveniet atque sunt ut m. Dolorum, perferendis!</p>
-                                </article>
-                            </a>
-                        </li>
-                        <li data-thumb="img/slider/flex-4.jpg">
-                            <a href="#">
-                                <img src="img/slider/flex-4.jpg" />
-                                <article class="slider-article">
-                                    <h2>Título de Slide</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptates pariatur veniam nostrum enetur ut.</p>
-                                </article>
-                            </a>
-                        </li>
-                    </ul>
-                </section><!-- ends flexslider -->
-                <div class="ad-section visible-sm row">
-                    <div class="col-md-12 MT10 MB20">
-                        <img class="DB M0A img-responsive" src="img/ad-samples/home-top-desktop.jpg" alt="Ad Sample">
+                <ol class="breadcrumb">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Soccer</a></li>
+                  <li class="active">Noticias</li>
+                </ol><!-- ends breadcrumb -->
+
+                <article class="articulo-interno">
+                    <h1 class="title">Simeone cauto, pero no desmiente interés del Atlético por Vela</h1>
+
+                    <div class="left w100 MB20 articulo-info">
+                        <span class="pick-ui-icon-sm soccer-pick"></span>
+                        <span class="PL15"><time datetime="2014-03-12"><a href="#">Marzo 12, 2014</a></time>, por Praesent Consequat</span>
                     </div>
 
-                    <div class="col-md-12">
-                        <img class="DB M0A img-responsive" src="img/ad-samples/home-top-desktop.jpg" alt="Ad Sample">
-                    </div>
-                </div><!-- ends Ad Section -->
+                    <figure class="left 100 MB20">
+                        <img class="img-responsive" src="img/development-imgs/img-interna.jpg" alt="Simeone cauto, pero no desmiente interés del Atlético por Vela - imagen">
+                        <figcaption class="credits">
+                            Alberto Pichardo/ESP.com
+                        </figcaption>
+                    </figure>
+                    
+                    <h2 class="subtitle">Suspendisse in nibh eu turpis posuere lobortis sed vel arcu praesent consequat pellentesque velit ac porta.</h2>
+
+                    <p><strong class="TTUC">Madrid &mdash;</strong> Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+
+                    <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
+
+                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. <a href="#">That's also clear</a>. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
+
+                    <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children.</p>
+
+                    <ul>
+                        <li>And I will strike down upon thee with</li>
+                        <li>Great vengeance and furious anger those</li>
+                        <li>My brothers</li>
+                        <li>My name is the Lord </li>
+                        <li>My vengeance upon thee</li>
+                    </ul>
+
+                    <ol>
+                        <li>And I will strike down upon thee with</li>
+                        <li>Great vengeance and furious anger those</li>
+                        <li>My brothers</li>
+                        <li>My name is the Lord </li>
+                        <li>My vengeance upon thee</li>
+                    </ol>
+                </article><!-- ends articulo interno -->
+
+                <div class="comments left w100">
+                    <div class="fb-comments" data-width="610" data-numposts="5" data-colorscheme="light"></div>
+                </div>
+
+                <div class="enfoque">
+                    <h4 class="title">Información Relacionada</h4>
+                    <article class="col-xs-4">
+                        <figure>
+                            <img class="img-responsive" src="img/development-imgs/resumen-img-2.png" alt="Imagen - Placeholder">
+                        </figure>
+                        <p>Voluptate, praesentium eaque impedit alias obcaecati.</p>
+
+                        <a class="btn btn-link">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </article>
+
+                    <article class="col-xs-4">
+                        <figure>
+                            <img class="img-responsive" src="img/development-imgs/resumen-img-2.png" alt="Imagen - Placeholder">
+                        </figure>
+                        <p>Voluptate, praesentium eaque impedit alias obcaecati.</p>
+
+                        <a class="btn btn-link">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </article>
+
+                    <article class="col-xs-4">
+                        <figure>
+                            <img class="img-responsive" src="img/development-imgs/resumen-img-2.png" alt="Imagen - Placeholder">
+                        </figure>
+                        <p>Voluptate, praesentium eaque impedit alias obcaecati.</p>
+
+                        <a class="btn btn-link">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </article>
+                </div>
+
+                <!-- AddThis Smart Layers BEGIN -->
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fde9b485921e295"></script>
+                <script type="text/javascript">
+                  addthis.layers({
+                    'theme' : 'transparent',
+                    'share' : {
+                      'position' : 'left',
+                      'numPreferredServices' : 5
+                    }   
+                  });
+                </script>
+                <!-- AddThis Smart Layers END -->
             </div>
 
             <div class="col-sm-4 right-column PT15">
@@ -860,309 +660,47 @@
                     </div>
                     <a href="#" class="left w100 FZ18 Tcenter MT10 MB10">Ver todos los expertos</a>
                 </aside><!-- ends Picks Tabs -->
-            </div>
-        </div><!-- ends content wrapper -->
 
-        <div class="content-wrapper row">
-            <section class="col-sm-4 ultimas-noticias">
-                <h3 class="title greenGradient">Últimas Noticias</h3>
-                <ul class="ultimas-noticias-list lightGrayGradient">
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="cat">
-                                <span>Liga mx</span>
-                            </div>
-                            <h6 class="news-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        </a>
-                    </li>
-                </ul>
-            </section><!-- ends ultimas noticias -->
-            <section class="col-sm-4 resumen-noticias">
-                <h3 class="hidden-seo">Resumen de noticias</h3>
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm soccer-pick"></span>
-                        <img src="img/development-imgs/resumen-img.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </article>
-
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm basketball-pick"></span>
-                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </article>
-            </section><!-- ends resumen noticias -->
-            
-            <div class="col-sm-4">
                 <div class="ad-section ad-right hidden-xs left w100">
-                    <img class="img-responsive" src="img/ad-samples/right-side-desktop.jpg" alt="Ad Sample">
+                    <img class="img-responsive" src="img/ad-samples/right-side-inner.jpg" alt="Ad Sample">
                 </div>
-                <div class="ad-section ad-right visible-sm left MT20 w100">
-                    <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
-                </div>    
-            </div>
-        </div><!-- ends content wrapper -->
 
-        <div class="content-wrapper three-col-ad-section hidden-xs row PB20">
-            <div class="col-sm-4">
-                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
-            </div>
-            <div class="col-sm-4">
-                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
-            </div>
-            <div class="col-sm-4">
-                <img class="img-responsive" src="img/ad-samples/right-side-tablet.jpg" alt="Ad Sample">
-            </div>
-        </div><!-- ends content wrapper -->
+                <aside class="relacionadas">
+                    <h4 class="title greenGradient">Notas Relacionadas</h4>
+                    <ul class="lightGrayGradient">
+                        <li>
+                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                        </li>
+                        <li>
+                            <a href="#">Sunt, sed repellat repellendus ipsum nesciunt.</a>
+                        </li>
+                        <li>
+                            <a href="#">Voluptatibus, dolorum inventore.</a>
+                        </li>
+                        <li>
+                            <a href="#">Pariatur, numquam quae accusantium amet voluptatum nulla saepe soluta! Corporis.</a>
+                        </li>
+                        <li>
+                            <a href="#">Cumque, sint, expedita, in, voluptatum magnam quos blanditiis perspiciatis.</a>
+                        </li>
+                    </ul>
+                </aside><!-- ends relacionadas -->
 
-        <div class="content-wrapper row">
-            <section class="col-sm-4 other-news hidden-xs">
-                <h3 class="hidden-seo">Otras Noticias</h3>
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm box-pick"></span>
-                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-
-                    <footer>
-                        <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </footer>
-                </article>
-
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm baseball-pick"></span>
-                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-
-                    <footer>
-                        <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </footer>
-                </article>
-            </section>
-            <section class="col-sm-4 other-news hidden-xs">
-                <h3 class="hidden-seo">Otras Noticias</h3>
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm americano-pick"></span>
-                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-
-                    <footer>
-                        <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </footer>
-                </article>
-
-                <article>
-                    <figure>
-                        <span class="pick-ui-icon-sm tennis-pick"></span>
-                        <img src="img/development-imgs/resumen-img-2.png" alt="Imagen: Noticia - Resumen importante">
-                    </figure>
-                    <h4 class="title"><a href="#">Noticia - Resumen importante</a></h4>
-                    <p>Lorem ipsum dolor sit amet, consec adipisicing elit ure.</p>
-                    <a class="btn btn-link">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-
-                    <footer>
-                        <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </footer>
-                </article>
-            </section>
-            <aside class="col-sm-4 matchups">
-                <h3 class="title blueGradient">Matchups</h3>
-                <ul class="matchups-list lightGrayGradient">
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-1">
-                                <span class="pick-ui-icon-md soccer-pick"></span>
-                                <span class="matchup-cat">Soccer</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-1" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-2">
-                                <span class="pick-ui-icon-md americano-pick"></span>
-                                <span class="matchup-cat">Fútbol Americano</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-2" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-3">
-                                <span class="pick-ui-icon-md baseball-pick"></span>
-                                <span class="matchup-cat">Béisbol</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-3" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-4">
-                                <span class="pick-ui-icon-md box-pick"></span>
-                                <span class="matchup-cat">Box</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-4" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-5">
-                                <span class="pick-ui-icon-md basketball-pick"></span>
-                                <span class="matchup-cat">Basketball</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-5" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-6">
-                                <span class="pick-ui-icon-md tennis-pick"></span>
-                                <span class="matchup-cat">Tennis</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-6" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <h4>
-                            <a data-toggle="collapse" href="#matchup-7">
-                                <span class="pick-ui-icon-md hockey-pick"></span>
-                                <span class="matchup-cat">Hockey</span>
-                            </a>
-                        </h4>
-
-                        <div id="matchup-7" class="matchup-content collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolorum, facere, est sed architecto maiores minus cum voluptatibus modi atque temporibus itaque culpa iure ab quaerat molestiae expedita quo illum.</p>
-                        </div>
-                    </li>
-                </ul>
-            </aside>
-
-            <div class="ad-section ad-bottom hidden-sm left w100 MB20">
-                <div class="col-md-12">
-                    <img class="DB M0A img-responsive" src="img/ad-samples/home-bottom-desktop.jpg" alt="Ad Sample">
+                <div class="ad-section ad-right hidden-xs left w100">
+                    <img class="img-responsive" src="img/ad-samples/right-side-inner.jpg" alt="Ad Sample">
                 </div>
-            </div><!-- ends Ad Section -->
+
+                <div class="galeria-foto-video lightGrayGradient">
+                    <h4 class="title"><span class="glyphicon glyphicon-camera"></span>Foto Galería</h4>
+                    <figure>
+                        <a href="#"><img src="img/development-imgs/resumen-img.png" alt="" class="img-responsive"></a>
+                    </figure>
+
+                    <h5>Iusto, atque cum non distinctio.</h5>
+
+                    <p>Veritatis, deleniti, delectus, minus atque nobis tempore sequi rem quod doloribus nulla quo animi <a href="#">ipsam nulla</a>.</p>
+                </div><!-- ends galeria foto video -->
+            </div>
         </div><!-- ends content wrapper -->
 
         <footer id="footer-wrapper" class="row">
