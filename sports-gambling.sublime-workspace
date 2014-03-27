@@ -4,20 +4,76 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding"
+				"dar",
+				"darkGray"
+			],
+			[
+				"s",
+				"solid"
 			],
 			[
 				"bor",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"bo",
 				"border"
+			],
+			[
+				"dark",
+				"darkGray"
+			],
+			[
+				"fon",
+				"font-weight"
 			],
 			[
 				"box",
 				"box-shadow"
 			],
 			[
+				"op",
+				"OpenSansBold"
+			],
+			[
 				"ma",
-				"max-width"
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"sho",
+				"showNav"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"per",
+				"perfilShow"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-bottom"
 			],
 			[
 				"boe",
@@ -34,26 +90,6 @@
 			[
 				"pad",
 				"padding-left"
-			],
-			[
-				"border",
-				"border-right"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"dar",
-				"darkBlue"
-			],
-			[
-				"op",
-				"opacity"
 			],
 			[
 				"con",
@@ -116,24 +152,12 @@
 				"lightGray"
 			],
 			[
-				"borde",
-				"border-box"
-			],
-			[
 				"min",
 				"min-height"
 			],
 			[
-				"dark",
-				"darkBlue"
-			],
-			[
 				"top",
 				"top-10-expertos"
-			],
-			[
-				"bo",
-				"border"
 			],
 			[
 				"p",
@@ -208,10 +232,6 @@
 				"absolute"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
 				"zoo",
 				"zoom-thumb"
 			],
@@ -284,10 +304,6 @@
 				"hasClass"
 			],
 			[
-				"sho",
-				"showAwesomeness"
-			],
-			[
 				"mous",
 				"mouseenter"
 			],
@@ -350,10 +366,6 @@
 			[
 				"ba",
 				"background"
-			],
-			[
-				"l",
-				"left"
 			],
 			[
 				"re",
@@ -502,23 +514,19 @@
 			[
 				"margin",
 				"margin"
-			],
-			[
-				"mr",
-				"margin"
-			],
-			[
-				"import",
-				"important"
-			],
-			[
-				"OSBold",
-				"OSBoldItalic"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-body-modules.html",
+			"settings":
+			{
+				"buffer_size": 33964,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -560,14 +568,15 @@
 	},
 	"file_history":
 	[
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/js/ux.js",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/theme.styl",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/nuestros-expertos.html",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/index.html",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/interna.html",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/gradients.css",
 		"/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-email-template-B.html",
 		"/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-email-template-A.html",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/gradients.css",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/index.html",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/theme.styl",
 		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/fonts/typography.css",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/interna.html",
-		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/js/ux.js",
 		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Picks/Desarrollo/css/flexslider.css",
 		"/Users/RobArpi/Downloads/social-icons/style.css",
 		"/Users/RobArpi/AdhocWorks/Dropbox/Picks/Desarrollo/css/theme.styl",
@@ -686,8 +695,7 @@
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-FR.html",
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-FR.html",
 		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-FR.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-EN.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-EN.html"
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-EN.html"
 	],
 	"find":
 	{
@@ -705,6 +713,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"interna",
+			"expertos",
+			"255",
+			"0",
+			"expert-bio lightGrayGradient",
+			"desplegable",
+			"info desplegable",
+			"2",
+			"tab-pane",
+			"data-toggle=\"tab",
+			"tab",
+			"1",
+			"links",
+			":",
+			";",
+			":",
+			";",
+			"article",
+			"Lorem",
+			"120",
+			"h4",
+			"300",
+			"perfil",
+			"M0A",
+			"active",
+			"tab-pane",
+			"4",
+			"\"input\"",
 			"-3",
 			"yd",
 			"src=\"http://www.adhocworks.com/clients/Sheridan/Email-Module/",
@@ -804,35 +840,7 @@
 			"_10",
 			"descargas_casos_exito",
 			"_9",
-			"info_interes",
-			"_8",
-			"descargas_si_logistica_transporte",
-			"_7",
-			"descargas_si_automotrices",
-			"_6",
-			"_retail",
-			"_5",
-			"descargas_si_constrccion",
-			"descargas_si_construccion",
-			"_4",
-			"_alimentos_bebidas",
-			"_3",
-			"_moda",
-			"moda",
-			"_2",
-			"descargas_microsoft_dynamics_nav",
-			"_1",
-			"10",
-			"<img class=\"pdf-icon\" src=\"<?php bloginfo('template_directory'); ?>/img/pdf-icon.png\" alt=\"pdf-icon\" width=\"29\" height=\"19\">",
-			"get_",
-			"get",
-			"_1",
-			"listadoContainer",
-			"left: 23px;",
-			"position: absolute;",
-			".clientes",
-			"img",
-			"class='active'"
+			"info_interes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -850,8 +858,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/RobArpi/AdhocWorks/Web/March14/1402131 - Email Template/EmailTemplate/sheridan-body-modules.html",
+					"settings":
+					{
+						"buffer_size": 33964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
